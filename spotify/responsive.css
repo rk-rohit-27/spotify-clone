@@ -1,0 +1,128 @@
+@media (max-width: 1500px) {
+    .left {
+        position: absolute;
+        left: -110%;
+        transition: all .3s;
+        width: 100vw;
+        z-index: 1;
+        background-color: black;
+    }
+
+    .playbar {
+        width: 95vw;
+        background-color: rgba(26, 24, 24, 0.954);
+        height: 16vh;
+        padding: 0;
+        margin: 0 10px;
+
+    }
+
+    .songbuttons {
+        margin-top: 60px;
+        position: initial;
+    }
+
+    .seekbar {
+        width: 90%;
+        top: 5px;
+        margin-top: 10px;
+    }
+
+    .right {
+        width: 100vw;
+        margin: 0;
+
+    }
+
+    .header {
+        background-color: rgba(26, 24, 24, 0.829);
+
+    }
+
+    .burgercontainer img {
+        display: block;
+        width: 22px;
+    }
+
+    .svghide {
+        display: none;
+    }
+
+    .cardContainer {
+        justify-content: center;
+        margin: 0px;
+    }
+
+    .card {
+        width: 80vw;
+        margin-top: 10px;
+    }
+
+    .close {
+        position: absolute;
+        right: -44px;
+        top: 23px;
+        display: block;
+    }
+
+    .abovebar {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+    }
+
+    .songinfo {
+        font-size: 1rem;
+        position: absolute;
+        top: 28px;
+    }
+
+    .play-btn {
+        right: 38px;
+        bottom: 130px;
+        opacity: 1;
+    }
+
+    .volumecontainer {
+        position: absolute;
+        top: 46px;
+        justify-content: space-between;
+        width: 80vw;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .songinfo {
+        top: 35px;
+        font-size: 0.8rem;
+    }
+
+    .songtime {
+        font-size: 0.8rem;
+    }
+
+    .volume img {
+        width: 15px;
+    }
+
+    .range {
+        width: 70px;
+        height: 3px;
+    }
+
+    .volumecontainer {
+        top: 57px
+    }
+
+    .play-btn {
+        right: 27px;
+        bottom: 78px;
+        opacity: 1;
+    }
+    .left{
+        height: 96vh;
+    }
+}
